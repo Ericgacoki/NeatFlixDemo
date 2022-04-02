@@ -8,6 +8,7 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.ui.Modifier
 import com.ericg.neatflixdemo.screens.Home
+import com.ericg.neatflixdemo.screens.MovieDetails
 import com.ericg.neatflixdemo.screens.SignUpOrLogInScreen
 import com.ericg.neatflixdemo.screens.SignUpScreen
 import com.ericg.neatflixdemo.ui.theme.NeatFlixDemoTheme
@@ -21,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Home()
+                    MovieDetails()
                 }
             }
         }
