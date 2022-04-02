@@ -264,7 +264,6 @@ fun NestedScroll() {
 
 @Composable
 fun GenreChip(genre: String, selected: Boolean, onClick: () -> Unit) {
-    // Chip
     Box(
         modifier = Modifier
             .padding(end = 4.dp)
